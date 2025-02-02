@@ -1,0 +1,60 @@
+.friendsList-Container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: 2px solid #8B4513;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 100%;
+}
+
+.friend-item {
+    background-color: #FFFFFF;
+    color: #02afff;
+    padding-left: 4px;
+    padding-bottom: 1px;
+    padding-right: 4px;
+    border: 2px solid rgba(192, 93, 0, 0.466);
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.friend-item:hover {
+    box-shadow: 1px 1px 10px 5px #ddd;
+    border: 2px solid #85b1e2;
+    transition: all 0.2s ease-out;
+}
+
+.friend-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: left;
+    width: 100%;
+    gap: 10px;
+    height: 30px;
+}
+
+.friend-options button {
+    width: 78px;
+    height: 20px;
+    border: 1px solid #51be08d2;
+    font-size: 11px;
+    white-space: nowrap;
+    margin-top: 8px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.unread {
+    font-weight: bold;
+}
+
+.unread-indicator {
+    color: green;
+   font-size: 15px;
+   width: 15px;
+   height: 15px;
+}

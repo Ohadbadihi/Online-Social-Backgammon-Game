@@ -1,0 +1,13 @@
+.game-controls {
+    margin-top: 20px;
+}
+
+.game-controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.game-controls button:hover {
+    background-color: #0b7dda;
+}

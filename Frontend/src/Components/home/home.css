@@ -1,0 +1,140 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/backgammonBackgroundImg.jpg');
+  background-size: 100% 100%;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.home-Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  background-color: #2C3E50;
+  color: white;
+  border-bottom: 2px solid gray;
+}
+
+.title-home{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.diceImg{
+  width: 80px;
+  height: 60px;
+}
+
+.home-logoutBtn {
+  background-color: #E74C3C;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-logoutBtn:hover {
+  background-color: #C0392B;
+}
+
+.home-context {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-grow: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.mailbox-container {
+  position: relative;
+}
+
+.mailBoxicon {
+  font-size: 25px;
+  cursor: pointer;
+  color: #E74C3C;
+}
+
+.close-mailbox{
+  margin-bottom: 10px;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-chat {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 4px hidden black;
+}
+
+.home-body {
+  width: 40%;
+  height: 80%;
+  border: 1px solid #BDC3C7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: self-end;
+  justify-items: center;
+
+}
+
+.home-FriendsList {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  width: 15%;
+  height: 80%;
+  overflow-y: auto;
+  border: 2px solid #aaa;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 10px rgba(50, 78, 119, 0.705);
+  background-color: #F5F5DC;
+}
+
+.messages-response{
+  position: absolute;
+  border: 3px solid rgb(41, 114, 123);
+  width: 30vh;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+  color: rgb(0, 0, 0);
+  background-color: #F5F5DC;
+  z-index: 1001;
+}

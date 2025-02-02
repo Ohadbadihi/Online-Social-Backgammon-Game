@@ -1,0 +1,79 @@
+.mailbox-popup {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 400px;
+    background-color: #F5F5DC;
+    border: 2px solid #DAA520;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 1000;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .mailBoxicon {
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    background-color: #FF0000;
+    color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    display: none;
+  }
+
+  .noNotifications-text{
+    color: rgb(181, 181, 181);
+  }
+  
+  .mailBoxicon.has-new-notifications .notification-badge {
+    display: inline-block;
+  }
+  
+  .notification-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #A9A9A9;
+    border-radius: 6px;
+  }
+  
+  .notification-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .notification-button-accept,
+  .notification-button-decline {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .notification-button-accept {
+    background-color: #008080;
+    color: white;
+  }
+  
+  .notification-button-decline {
+    background-color: #800000;
+    color: white;
+  }

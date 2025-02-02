@@ -1,0 +1,28 @@
+.player-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.player-info .player {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  color: #333;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.player-info .player.active {
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid #388e3c;
+}
+
+.player-info .player .time-remaining {
+  font-size: 14px;
+}

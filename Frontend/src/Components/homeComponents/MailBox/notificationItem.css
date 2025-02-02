@@ -1,0 +1,18 @@
+.notifications{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    border: 2px solid #800000;
+    border-radius: 5px;
+
+}
+
+.notification{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.message-notification{
+    color: #E74C3C;
+}

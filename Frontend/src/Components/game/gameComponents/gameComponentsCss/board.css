@@ -1,0 +1,83 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  width: 1000px;
+  height: 600px;
+  background-color: #a37a3c; /* Chocolate background */
+  align-items: center;
+  border: 1px solid black;
+  
+}
+
+.board-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.lower {
+  flex-direction: row;
+  height: 45%;
+}
+
+.upper {
+  flex-direction: row;
+  height: 45%;
+}
+
+
+.point {
+  position: relative;
+  width: calc(100% / 12 - 5px);
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 180px solid red; /* Triangle color */
+  
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 180px solid red;
+}
+
+.point-light.triangle-down {
+  border-bottom-color: #DAA520; 
+}
+
+.point-dark.triangle-down {
+  border-bottom-color: #4f2100; 
+}
+
+.point-light.triangle-up {
+  border-top-color: #DAA520;
+}
+
+.point-dark.triangle-up {
+  border-top-color: #4f2100;
+}
+
+/* Highlighted points */
+.point.highlighted {
+  background-color: rgba(255, 255, 0, 0.493);
+}
+
+.bar {
+  display: flex;
+  width: 40px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+  border: 2px solid #5f2d09;
+  z-index: 1000;
+}

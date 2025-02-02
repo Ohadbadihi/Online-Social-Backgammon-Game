@@ -1,0 +1,23 @@
+.bar {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.bar-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.white-bar {
+  height: 50%; 
+  background-color: rgba(206, 206, 206, 0.8);
+}
+
+.black-bar {
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.548);
+}
